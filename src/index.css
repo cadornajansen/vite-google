@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  @apply bg-[#16151c] text-white;
+}
+
+.footer a {
+  @apply hover:text-white/90 text-white/60 smooth 
+}
+
+.smooth {
+  @apply duration-300 transition-all ease-in-out;
+}
+
